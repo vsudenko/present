@@ -1,0 +1,81 @@
+\Processor(*)\* 
+\Memory\Available MBytes 
+\Paging File(_Total)\% Usage 
+\PhysicalDisk(*)\Avg. Disk Read Queue Length 
+\PhysicalDisk(*)\Avg. Disk Write Queue Length 
+\PhysicalDisk(*)\Avg. Disk Bytes/Read 
+\PhysicalDisk(*)\Avg. Disk Bytes/Write 
+\PhysicalDisk(*)\Avg. Disk sec/Read 
+\PhysicalDisk(*)\Avg. Disk sec/Write 
+\Processor Information(_Total)\% Processor Time 
+\SQLServer:Access Methods\Forwarded Records/sec 
+\SQLServer:Access Methods\Full Scans/sec 
+\SQLServer:Access Methods\Mixed page allocations/sec 
+\SQLServer:Access Methods\Page Splits/sec 
+\SQLServer:Buffer Manager\Buffer cache hit ratio 
+\SQLServer:Buffer Manager\Checkpoint pages/sec 
+\SQLServer:Buffer Manager\Free list stalls/sec 
+\SQLServer:Buffer Manager\Lazy writes/sec 
+\SQLServer:Buffer Manager\Page life expectancy 
+\SQLServer:General Statistics\Active Temp Tables 
+\SQLServer:General Statistics\Processes blocked 
+\SQLServer:General Statistics\Temp Tables Creation Rate 
+\SQLServer:General Statistics\Temp Tables For Destruction 
+\SQLServer:Locks(_Total)\Average Wait Time (ms) 
+\SQLServer:Locks(_Total)\Lock Requests/sec 
+\SQLServer:Locks(_Total)\Number of Deadlocks/sec 
+\SQLServer:Plan Cache(_Total)\Cache Hit Ratio 
+\SQLServer:Plan Cache(_Total)\Cache Object Counts 
+\SQLServer:Plan Cache(_Total)\Cache Objects in use 
+\SQLServer:SQL Statistics\Batch Requests/sec 
+\SQLServer:SQL Statistics\SQL Compilations/sec 
+\SQLServer:SQL Statistics\SQL Re-Compilations/sec 
+\System\Processor Queue Length
+
+-- Slow Disk Performance?
+Avg Disk sec/ Read
+Avg. Disk sec/Write
+Avg. Disk sec/Transfer	= Avg Disk sec/ Read + Avg. Disk sec/Write
+
+
+Anzahl von Worker
+
+<= 4 Cores:	512 Worker
+pro 1 Core:	 16 Worker
+
+Beispiel-Konfiguration:	8 Cores
+1 - 4:	512 Worker
+5	 16
+6	 16
+7	 16
+8	 16
+	576 Worker
+
+- Systemthreads:	
+
+SQLOS	SQL Operation System
+
+Storage Latenzwerte!
+<= 1		SEHR GUTES STORAGE
+>1 <=5		GUTES STORAGE
+>5 <= 10	GUTES STORAGE (2-)
+>10		MANGELHAFT bis UNGENÜGEND
+
+Faustregel für Parallelism:
+- Cost Threshold for Parallelism:	50	(um 50 erhöhen)
+- Max Degree of Parallelism
+	- MAX ist Anzahl der Cores auf EINEM NUMA Node!!!!!!!!
+
+Beispiel:
+	2 Numa Nodes ^ 6 Cores	= 12 Cores
+
+Einstellungsmöglichkeiten (MAXDOP)
+	1
+	2
+	3
+	4	!!!! Funktioniert nicht immer !!!
+		1 Numa:	4 Cores
+		2 Numa:	4 Cores
+		???
+		2 Cores (0) + 2 Cores (1) => Abfrage ausführen
+	6

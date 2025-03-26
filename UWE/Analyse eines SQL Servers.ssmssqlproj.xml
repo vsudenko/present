@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Analyse eines SQL Servers">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="NB-LENOVO-I\SQL_2022:NB-LENOVO-I\Uwe Ricken">
+          <Created>2023-07-13T09:07:19.8354177+02:00</Created>
+          <Type>SQL</Type>
+          <Server>NB-LENOVO-I\SQL_2022</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="001 - A00 - System Environment - Generic Information.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A00 - System Environment - Generic Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A01 - System Environment - Security of service account.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A01 - System Environment - Security of service account.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A02 - System Environment - SQL Server Logins and server roles.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>001 - A02 - System Environment - SQL Server Logins and server roles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A03 - System Environment - Drive Latency.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A03 - System Environment - Drive Latency.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A04 - System Environment - Configuration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A04 - System Environment - Configuration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A05 - System Environment - Page Life Expectancy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>001 - A05 - System Environment - Page Life Expectancy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A06 - System Environment - SQL Agent Job Information.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>001 - A06 - System Environment - SQL Agent Job Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="001 - A07 - System Environment - Backup-Information.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>001 - A07 - System Environment - Backup-Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A01 - Database analysis - Distribution of databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>002 - A01 - Database analysis - Distribution of databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A02 - Database analysis - Database size and consumption.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>002 - A02 - Database analysis - Database size and consumption.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A03 - Database analysis - Database Settings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002 - A03 - Database analysis - Database Settings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A04 - Database analysis - Bufferpool usage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002 - A04 - Database analysis - Bufferpool usage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A05 - Database analysis - IO analysis.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>002 - A05 - Database analysis - IO analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="002 - A06 - Database analysis - CPU analysis.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>002 - A06 - Database analysis - CPU analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - A01 - TEMPDB analysis - data file information.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>003 - A01 - TEMPDB analysis - data file information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - A02 - TEMPDB analysis - Allocation by object types.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>003 - A02 - TEMPDB analysis - Allocation by object types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - A03 - TEMPDB analysis - page latch contention.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>003 - A03 - TEMPDB analysis - page latch contention.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - A04 - TEMPDB analysis - space allocation by session.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>003 - A04 - TEMPDB analysis - space allocation by session.sql</FullPath>
+        </FileNode>
+        <FileNode Name="004 - A01 - What tasks are CURRENTLY waiting.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>004 - A01 - What tasks are CURRENTLY waiting.sql</FullPath>
+        </FileNode>
+        <FileNode Name="004 - A02 - Waiting - Analysis of wait stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>004 - A02 - Waiting - Analysis of wait stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="004 - A03 - Analysis of latches.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>004 - A03 - Analysis of latches.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A01 - Index usage in dedicated database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>005 - A01 - Index usage in dedicated database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A02 - Index physical stats in dedicated database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>005 - A02 - Index physical stats in dedicated database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A03 - Statistics in explicit database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>005 - A03 - Statistics in explicit database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A04 - Missing Indexes and its impact.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>005 - A04 - Missing Indexes and its impact.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A05 - Analysis of the plan cache.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>005 - A05 - Analysis of the plan cache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - A06 - find cxpacket queries in the plan cache.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>005 - A06 - find cxpacket queries in the plan cache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A00 ----------------- Demos ----------------------.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A00 ----------------- Demos ----------------------.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A01 - Demodatabase for workload demos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A01 - Demodatabase for workload demos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A02 - Latch Contention in tempdb.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A02 - Latch Contention in tempdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A03 - monitoring wait stats of a dedicated session.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A03 - monitoring wait stats of a dedicated session.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A05 - Startup Procedure for SQL Server.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A05 - Startup Procedure for SQL Server.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A10 - Mixed Extents vs Uniform Extents.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A10 - Mixed Extents vs Uniform Extents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A20 - Plan Cache Bloating.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A20 - Plan Cache Bloating.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A30 - RCSI - version_ghost_record_count.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A30 - RCSI - version_ghost_record_count.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A40 - Instant File Initialization.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A40 - Instant File Initialization.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A50 - TEMPDB - Allocation Contention .sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A50 - TEMPDB - Allocation Contention .sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A60 - Uneven size of multiple data files.sql.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A60 - Uneven size of multiple data files.sql.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A70 - Monitoring Wait Stats daily.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A70 - Monitoring Wait Stats daily.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A80 - Database and FILLFACTOR.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A80 - Database and FILLFACTOR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A90 - Demonstration of CXPACKET.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A90 - Demonstration of CXPACKET.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A91 - MS SQL Tiger Team - Check_BP_Servers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A91 - MS SQL Tiger Team - Check_BP_Servers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="099 - A92 - Locking Blocking.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>099 - A92 - Locking Blocking.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="Analyse und Konfiguration.pptx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analyse und Konfiguration.pptx</FullPath>
+        </FileNode>
+        <FileNode Name="Analysis of SQL Server.pptx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analysis of SQL Server.pptx</FullPath>
+        </FileNode>
+        <FileNode Name="Analysisreport - DE.docx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analysisreport - DE.docx</FullPath>
+        </FileNode>
+        <FileNode Name="Analysisreport - EN.docx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analysisreport - EN.docx</FullPath>
+        </FileNode>
+        <FileNode Name="Counters.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Counters.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
